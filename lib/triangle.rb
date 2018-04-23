@@ -16,11 +16,11 @@ class Triangle
     elsif side_1 != side_2 || side_2 != side_3
       :scalene
     elsif side_1 == 0 || side_2 == 0 || side_3 == 0
-      raise TriangeError
+      raise TriangleError
     end
   end
   
-  class TriangeError < StandardError
+  class TriangleError < StandardError
   end
   
 end
